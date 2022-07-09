@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votting Blockchain System </title>
+    <style type="text/css">
+
+        .page__custom-settings{
+            --toggleColor: #690e90;
+            --toggleOutlineColorFocus: #690e90;
+            --toggleSize: 2rem;
+        }
+
+        body{
+            min-height: 100vh;
+            margin: 0;    
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif; 
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .page{
+            box-sizing: border-box;
+            max-width: 45rem;
+            padding: 2.75rem 2rem 2.5rem;
+            margin: auto;
+
+            background-color: #fff;
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12), 0 1px 5px 0 rgba(0, 0, 0, .2);
+            border-radius: 2px;
+        }
+
+        .page__section{
+            display: flex;
+            flex-wrap: wrap;
+            font-weight: 700;
+        }
+
+        .page__section:nth-child(n+2){
+            margin-top: 3rem;
+        }
+
+        .page__custom-settings{
+            --pageToggleTextFontSize: 1.25rem;
+        }
+
+        .page__name{
+            width: 100%;
+        }
+
+        .page__name::first-letter{
+            text-transform: uppercase;
+        }
+
+        .page__toggle{
+            margin-top: 1.25rem;
+            margin-right: 1.5rem;
+            font-size: var(--pageToggleTextFontSize);
+        }
+        .header {
+            text-align: center;
+            background-color: #f82121;
+            color: white;
+            padding: 10px;
+        }
+
+        .wrapper {
+            width: 20%;
+            margin: auto;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgb(54, 54, 54);
+            overflow: hidden;
+        }
+
+        .item {
+            padding: 10px;
+            margin-left: 40px;
+        }
+
+        input[type=text]{
+            width:100%;
+            border:2px solid #aaa;
+            border-radius:4px;
+            margin:8px 0;
+            outline:none;
+            padding:8px;
+            box-sizing:border-box;
+            transition:.3s;
+        }
+
+        input[type=text]:focus{
+            border-color:dodgerBlue;
+            box-shadow:0 0 8px 0 dodgerBlue;
+        }
+
+        h5{
+            color: #dc4343;
+        }
+        h6{
+            color: #dc4343;
+        }
+
+        .loading {
+            display: block;
+            margin: 0 auto;
+            border: 8px solid #f82121;
+            border-top-color: #b32727;
+            border-bottom-color: #ffffff;
+            border-radius: 100%;
+            width: 80px;
+            height: 80px;
+            -webkit-animation: spin infinite 1s linear;
+            animation: spin infinite 1s linear;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @-webkit-keyframes spin {
+            from {
+                -webkit-transform: rotate(0deg);
+            }
+            to {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+      <div class="wrapper">
+        <div class="header">
+            <h3>Voting Blockchain</h3>
+        </div>
+        <div class="page">
+        <div id="itemForm">
+          <form action="/action_page">
+            <div class="page__section page__custom-settings">
+
+              <div class="loading"></div>
+
+              <div class="page__toggle">
+                <label class="toggle">
+                    <!-- <h6>Device token not available</h6>
+                    <h6>Please update your device token</h6> -->
+                    <!-- <input type="text" placeholder="Device Token"> -->
+                  <span class="toggle__label">
+                    <!-- <span class="toggle__text">Nguyen Van D</span> -->
+                    <h5>Device token not available</h5>
+                    <h6>Please update your device token</h6>
+                  </span>
+                </label>
+              </div>
+              <!-- <button id="submit" type="submit" value="Submit">Change</button> -->
+            </form>
+          </div>
+        </div>
+        <div class="center"></div>
+</body>
+
+</html>

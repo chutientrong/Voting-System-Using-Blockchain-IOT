@@ -16,7 +16,7 @@
 - Dowload Xampp and push folder `Frontend-Management` to htdocs
 - Start apache and mysql
 - Open PHPMyAdmin and create database name `iotblockchain`
-- Open new tab in your explore (GoogleChrome) and text `iotblockchain` with `localhost`
+- Open new tab in your Browser (GoogleChrome) and text `iotblockchain` with `localhost`
 
 2. Backend
 - Open folder `Backend` and do in `README`
@@ -27,7 +27,7 @@
 - Replace `device_token` in `blockchainiot` by created `device_id` 
 - Connect ESP8266/ESP32 to your PC/Laptop and upload source code
 - In `Serial Monitor` you can see ip and port such as `192.168.1.1:2000`
-- Then open new tab in explore and text your ip
+- Then open new tab in Browser and text your ip
 - Voting (See video demo)
 
 
